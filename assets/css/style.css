@@ -1,0 +1,82 @@
+hr {
+   height: 1.5px;
+   margin-left: 0.1vw 0.3vw;
+   background-color: #373A3C;
+
+}
+.container-pizza {
+    position: relative;
+    height: 740px;
+    margin-left: 150px;
+    
+}
+.navbar-brand span {
+   font-family: 'Lobster', sans-serif;
+   font-style: italic;
+   font-weight: 500;
+   font-size: 37px;   
+   margin-left: 150px;   
+   
+}
+
+.img-pizza {
+    width: 482px;
+    height: 386px;
+    margin-left: 150;
+}
+
+.div-body {    
+    width: 80%;
+    
+}
+
+.card-button {
+    margin: 0px 58px ;
+}
+
+.div-body h1 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    /*margin-left: 58px;*/
+    color: #373A3C;
+}
+
+.div-body p {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    /*margin-left: 58px;*/
+    color: #373A3C;
+}
+
+
+.carousel-item img {
+    width: 233px;
+    height: auto;
+} 
+
+.carousel-indicators {
+    bottom: -52px;
+} 
+
+ .carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.carousel .carousel-indicators button {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #ccc;
+    
+  }
+ 
+ /* Ocultar carrusel en tamaños sm y xs */
+ @media (max-width: 575.98px) {
+    .carousel {
+        display: none;
+    }
+}
