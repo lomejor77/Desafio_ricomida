@@ -38,7 +38,19 @@ hr {
     font-family: 'Cabin', sans-serif;
     font-weight: bold;
     font-size: 40px;
-    /*margin-left: 58px;*/
+    color: #373A3C;
+}
+
+.card-title {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: #373A3C;
+}
+
+.card-text {
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
     color: #373A3C;
 }
 
@@ -46,7 +58,6 @@ hr {
     font-family: 'Cabin', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    /*margin-left: 58px;*/
     color: #373A3C;
 }
 
@@ -72,7 +83,25 @@ hr {
     border-radius: 100%;
     background-color: #ccc;
     
-  }
+}
+
+.list-group-item {
+    border: none;
+}
+
+.footer-red {
+    background-color: #DC3545;
+   
+}
+
+.div-footer {
+    padding: 150px  100px;
+}
+
+.footer-logo {
+    background-color: #373A3C;
+}
+
  
  /* Ocultar carrusel en tamaños sm y xs */
  @media (max-width: 575.98px) {
