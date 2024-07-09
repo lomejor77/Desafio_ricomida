@@ -1,8 +1,7 @@
 hr {
-   height: 1.5px;
+   height: 2px;
    margin-left: 0.1vw 0.3vw;
-   background-color: #373A3C;
-
+   background-color: #000000;
 }
 .container-pizza {
     position: relative;
@@ -16,6 +15,20 @@ hr {
    font-weight: 500;
    font-size: 37px;   
    margin-left: 150px;   
+   
+}
+
+.span-ricomida {
+   font-family: 'Lobster', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 30px;   
+  
+}
+.p-newsletter {
+    font-family: 'Cabin', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
    
 }
 
@@ -98,13 +111,24 @@ hr {
     padding: 150px  100px;
 }
 
-.footer-logo {
+.footer-copyright{
     background-color: #373A3C;
 }
 
+.footer-logo {
+   font-family: 'Lobster', sans-serif;
+   font-style: italic;
+   font-weight: 500;
+   font-size: 37px;   
+  
+}
+
+.red-text{
+    color: red;
+}
  
  /* Ocultar carrusel en tamaños sm y xs */
- @media (max-width: 575.98px) {
+@media (max-width: 575.98px) {
     .carousel {
         display: none;
     }

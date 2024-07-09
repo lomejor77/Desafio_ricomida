@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="assets/css/style.css"  rel="stylesheet">
-    <title>Document</title>
+    <title>Ricomida</title>
  </head>
  <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -21,13 +21,16 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                       <a class="nav-link active" aria-current="page" href="#">Home</a>
+                       <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                       <a class="nav-link" href="#">Link</a>
+                       <a class="nav-link" href="#">Receta</a>
                     </li>
                     <li class="nav-item">
-                       <a class="nav-link">Disabled</a>
+                       <a class="nav-link">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -47,8 +50,8 @@
                 <hr/>
                 <p class="mt-5">110 min / 6 a 8 porciones</p>           
                 <div class="btn-group btn-group-sm d-flex justify-content-center" role="group" >
-                    <button class="btn border " data-bs-toggle="tooltip" data-bs-placement="top" title="Enviar por correo electrónico" >Enviar por correo</button>
-                    <button class="btn  " data-bs-toggle="tooltip" data-bs-placement="top" title="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
+                    <button id="enviarCorreo" class="btn border mx-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Enviar por correo electrónico" >Enviar por correo</button>
+                    <button class="btn border mx-2 " data-bs-toggle="tooltip" data-bs-placement="top" title="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
                 </div>
            </div>             
          </div>
@@ -201,8 +204,12 @@
             </div>
         </div>
     </div> 
-    <div class="container">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="container py-5">
+        <hr/>
+        <div class="text-center">
+            <h1>RECETAS RELACIONADAS</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">            
             <div class="col">
               <div class="card h-100">
                 <img src="assets/img/recipe-card-1.png" class="card-img-top" alt="...">
@@ -232,27 +239,24 @@
             </div>
           </div>
     </div>
-    <footer class="text-center text-white footer-red" >
+    <footer class="text-center text-white footer-red">
       <div class="container p-4 pb-0">
         <section class="div-footer">
-          <p class="d-flex justify-content-center align-items-center">
-            <h1><span>SUSCRÍBETE EN NUESTRO NEWSLETTER</span></h1>
-            <button data-mdb-ripple-init type="button" class="btn btn-outline-light btn-rounded">
+          <div class="d-flex flex-column align-items-center">
+            <h1>SUSCRÍBETE EN NUESTRO NEWSLETTER</h1>
+            <h2><p>y obtén las mejores recetas que tenemos en <span class="span-ricomida">Ricomida</span></p></h2>       
+            <button data-mdb-ripple-init type="button" class="btn btn-outline-light btn-rounded mt-3">
               Empezar
             </button>
-          </p>
+          </div>
         </section>
-        <!-- Section: CTA -->
       </div>
-      <!-- Grid container -->
-   
-      <!-- Copyright -->
-      <div class="text-center footer-logo p-3" >
-        © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+
+      <div class="text-center footer-copyright p-3">
+        <p class="text-white footer-logo">Ricomida</p>
       </div>
-      <!-- Copyright -->
-    </footer>
+</footer>
+
     
     
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
